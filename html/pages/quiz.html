@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="José Luis">
+    <meta name="description" content="Teste seus conhecimentos sobre como reconhecer e evitar golpes digitais.">
+
+    <title>Quiz | Guia Anti-Golpe Digital</title>
+
+    <link rel="stylesheet" href="../../css/estilo.css">
+
+    <script src="../../js/script.js" defer></script>
+</head>
+
+<body class="pagina-quiz">
+
+    <!-- Cabeçalho principal -->
+    <header>
+        <h1>Guia Anti-Golpe Digital</h1>
+        <p>Informação e prevenção contra golpes na internet.</p>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav>
+        <ul>
+            <li><a href="../main/index.html">Início</a></li>
+            <li><a href="golpes.html">Tipos de golpes</a></li>
+            <li><a href="protecao.html">Como se proteger</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="denuncia.html">Denúncia</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <section class="quiz-apresentacao">
+            <h2>Quiz: você sabe reconhecer golpes digitais?</h2>
+
+            <p>
+                Responda às cinco perguntas abaixo escolhendo uma alternativa
+                em cada questão. Pense nos cuidados apresentados neste guia.
+            </p>
+
+            <p>
+                Para participar:
+            </p>
+
+            <ol>
+                <li>Leia cada pergunta com atenção.</li>
+                <li>Marque uma alternativa em cada questão.</li>
+                <li>Use os botões no final para finalizar ou limpar suas respostas.</li>
+            </ol>
+
+            <p>
+                Nesta versão, a pontuação ainda não é calculada automaticamente.
+            </p>
+        </section>
+
+        <section class="quiz-conteudo">
+            <h2>Perguntas</h2>
+
+            <div class="quiz-progresso">
+                <p>Este quiz possui 5 perguntas:</p>
+                <ol>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ol>
+            </div>
+
+            <form class="quiz-form">
+                <!-- Pergunta 1 -->
+                <article class="quiz-pergunta">
+                    <fieldset>
+                        <legend>1. Uma pessoa conhecida pede dinheiro com urgência pelo WhatsApp. O que você deve fazer?</legend>
+
+                        <p>
+                            <input type="radio" id="q1-a" name="pergunta1" value="a">
+                            <label for="q1-a">Transferir o dinheiro imediatamente para ajudar.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q1-b" name="pergunta1" value="b">
+                            <label for="q1-b">Ligar para a pessoa usando um número que você já conhece e confirmar o pedido.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q1-c" name="pergunta1" value="c">
+                            <label for="q1-c">Pedir que ela envie o código recebido por SMS.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q1-d" name="pergunta1" value="d">
+                            <label for="q1-d">Enviar seus dados bancários para confirmar sua identidade.</label>
+                        </p>
+                    </fieldset>
+                </article>
+
+                <!-- Pergunta 2 -->
+                <article class="quiz-pergunta">
+                    <fieldset>
+                        <legend>2. Antes de confirmar um Pix, qual cuidado é importante?</legend>
+
+                        <p>
+                            <input type="radio" id="q2-a" name="pergunta2" value="a">
+                            <label for="q2-a">Confiar apenas no nome que aparece na mensagem de quem pediu a transferência.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q2-b" name="pergunta2" value="b">
+                            <label for="q2-b">Conferir o nome e os dados do destinatário mostrados pelo aplicativo do banco.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q2-c" name="pergunta2" value="c">
+                            <label for="q2-c">Fazer a transferência rapidamente se a mensagem disser que é urgente.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q2-d" name="pergunta2" value="d">
+                            <label for="q2-d">Compartilhar sua senha para que outra pessoa confira a operação.</label>
+                        </p>
+                    </fieldset>
+                </article>
+
+                <!-- Pergunta 3 -->
+                <article class="quiz-pergunta">
+                    <fieldset>
+                        <legend>3. Você encontrou uma oferta muito barata em uma loja desconhecida. Qual é a atitude mais segura?</legend>
+
+                        <p>
+                            <input type="radio" id="q3-a" name="pergunta3" value="a">
+                            <label for="q3-a">Comprar logo, antes que a oferta acabe.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q3-b" name="pergunta3" value="b">
+                            <label for="q3-b">Informar os dados do cartão para descobrir se a loja é verdadeira.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q3-c" name="pergunta3" value="c">
+                            <label for="q3-c">Conferir o endereço do site e pesquisar informações da loja antes de comprar.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q3-d" name="pergunta3" value="d">
+                            <label for="q3-d">Acreditar que o cadeado no navegador garante que a loja é legítima.</label>
+                        </p>
+                    </fieldset>
+                </article>
+
+                <!-- Pergunta 4 -->
+                <article class="quiz-pergunta">
+                    <fieldset>
+                        <legend>4. Você recebeu uma mensagem inesperada com um link para desbloquear sua conta. O que fazer?</legend>
+
+                        <p>
+                            <input type="radio" id="q4-a" name="pergunta4" value="a">
+                            <label for="q4-a">Não clicar no link e acessar sua conta pelo aplicativo ou endereço oficial.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q4-b" name="pergunta4" value="b">
+                            <label for="q4-b">Abrir o link e digitar sua senha para evitar o bloqueio.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q4-c" name="pergunta4" value="c">
+                            <label for="q4-c">Responder à mensagem pedindo que enviem outro link.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q4-d" name="pergunta4" value="d">
+                            <label for="q4-d">Encaminhar o link para amigos verificarem se funciona.</label>
+                        </p>
+                    </fieldset>
+                </article>
+
+                <!-- Pergunta 5 -->
+                <article class="quiz-pergunta">
+                    <fieldset>
+                        <legend>5. Alguém pediu o código de confirmação que você recebeu por SMS. O que você deve fazer?</legend>
+
+                        <p>
+                            <input type="radio" id="q5-a" name="pergunta5" value="a">
+                            <label for="q5-a">Enviar o código se a pessoa disser que é do suporte.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q5-b" name="pergunta5" value="b">
+                            <label for="q5-b">Publicar o código para pedir ajuda a outras pessoas.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q5-c" name="pergunta5" value="c">
+                            <label for="q5-c">Enviar o código apenas se a mensagem parecer oficial.</label>
+                        </p>
+
+                        <p>
+                            <input type="radio" id="q5-d" name="pergunta5" value="d">
+                            <label for="q5-d">Não compartilhar o código com ninguém.</label>
+                        </p>
+                    </fieldset>
+                </article>
+
+                <div class="quiz-resultado">
+                    <h3>Resultado</h3>
+                    <p>Pontuação: aguardando a correção do quiz.</p>
+                    <p>
+                        A área está preparada para mostrar seus acertos quando
+                        a correção automática for implementada.
+                    </p>
+                </div>
+
+                <div class="quiz-acoes">
+                    <button class="quiz-botao quiz-botao-finalizar" type="button">
+                        Finalizar quiz
+                    </button>
+                    <button class="quiz-botao quiz-botao-reset" type="reset">
+                        Tentar novamente
+                    </button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Projeto acadêmico - Guia Anti-Golpe Digital</p>
+    </footer>
+
+</body>
+
+</html>
