@@ -78,6 +78,15 @@ section p {
     margin-bottom: 15px;
 }
 
+/* Imagens usadas para complementar o conteúdo das páginas */
+.imagem-conteudo {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+}
+
 /* Rodapé */
 
 footer {
