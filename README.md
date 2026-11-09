@@ -12,8 +12,8 @@ Projeto acadêmico desenvolvido com HTML, CSS e JavaScript básicos.
 
 ## Como abrir o projeto
 
-Abra `pages/index.html` para acessar o cadastro e, em seguida, faça login para
-ir ao conteúdo principal do guia em `pages/inicio.html`.
+Abra `pages/index.html` para acessar a página principal do Guia Anti-Golpe Digital.
+O cadastro e o login opcionais estão disponíveis no menu e nas páginas de acesso.
 
 ## Login e cadastro
 

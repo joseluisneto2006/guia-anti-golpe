@@ -8,7 +8,7 @@ document.getElementById("botao-login").addEventListener("click", function () {
     if (emailDigitado === emailSalvo && senhaDigitada === senhaSalva) {
         const nomeSalvo = localStorage.getItem("guiaNome");
         alert("Login realizado. Bem-vindo, " + nomeSalvo + "!");
-        window.location.href = "inicio.html";
+        window.location.href = "index.html";
     } else {
         alert("E-mail ou senha incorretos. Tente novamente.");
     }
