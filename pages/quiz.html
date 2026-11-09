@@ -32,6 +32,7 @@
             <li><a href="protecao.html">Como se proteger</a></li>
             <li><a href="quiz.html">Quiz</a></li>
             <li><a href="denuncia.html">Denúncia</a></li>
+            <li><a href="login.html">Login</a></li>
         </ul>
     </nav>
 
@@ -75,7 +76,7 @@
                 </ol>
             </div>
 
-            <form class="quiz-form">
+            <form id="formulario-quiz" class="quiz-form">
                 <!-- Pergunta 1 -->
                 <article class="quiz-pergunta">
                     <fieldset>
@@ -213,15 +214,14 @@
 
                 <div class="quiz-resultado">
                     <h3>Resultado</h3>
-                    <p>Pontuação: aguardando a correção do quiz.</p>
+                    <p id="resultado-quiz">Sua pontuação aparecerá aqui ao finalizar o quiz.</p>
                     <p>
-                        A área está preparada para mostrar seus acertos quando
-                        a correção automática for implementada.
+                        Cada resposta correta vale um ponto.
                     </p>
                 </div>
 
                 <div class="quiz-acoes">
-                    <button class="quiz-botao quiz-botao-finalizar" type="button">
+                    <button class="quiz-botao quiz-botao-finalizar" id="botao-finalizar" type="button">
                         Finalizar quiz
                     </button>
                     <button class="quiz-botao quiz-botao-reset" type="reset">
