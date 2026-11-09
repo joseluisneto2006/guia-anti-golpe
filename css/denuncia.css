@@ -1,0 +1,86 @@
+/* Estilos da página de denúncia */
+
+.pagina-denuncia .denuncia-secao {
+    margin-top: 24px;
+}
+
+.pagina-denuncia .denuncia-intro {
+    background-color: #eaf2f8;
+    border-left: 6px solid #65c7f7;
+}
+
+.pagina-denuncia .denuncia-lista {
+    margin: 0 0 15px 25px;
+}
+
+.pagina-denuncia .denuncia-lista li {
+    margin-bottom: 12px;
+}
+
+.pagina-denuncia .denuncia-alerta {
+    background-color: #fff4e5;
+    border-left: 5px solid #e0a33a;
+    padding: 14px;
+}
+
+.pagina-denuncia .denuncia-form fieldset {
+    border: 1px solid #d5dee7;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.pagina-denuncia .denuncia-form legend {
+    color: #142b45;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.pagina-denuncia .denuncia-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.pagina-denuncia .denuncia-form input,
+.pagina-denuncia .denuncia-form select,
+.pagina-denuncia .denuncia-form textarea {
+    border: 1px solid #aab7c4;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+.pagina-denuncia .denuncia-form button {
+    background-color: #e1e6eb;
+    border: 1px solid #aab7c4;
+    border-radius: 5px;
+    color: #4b5661;
+    font-size: 15px;
+    padding: 10px 14px;
+}
+
+.pagina-denuncia .denuncia-comunidade article {
+    background-color: #f4f6f9;
+    border: 1px solid #d5dee7;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 18px;
+}
+
+.pagina-denuncia .denuncia-comunidade h3 {
+    color: #142b45;
+    margin-bottom: 10px;
+}
+
+.pagina-denuncia .denuncia-referencias {
+    margin-top: 18px;
+}
+
+@media (max-width: 768px) {
+    .pagina-denuncia .denuncia-form fieldset {
+        padding: 14px;
+    }
+}
